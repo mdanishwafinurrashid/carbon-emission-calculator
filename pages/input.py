@@ -7,7 +7,7 @@ with st.container():
         
         st.title("EcoStep 🍂")
         st.caption("Calculate your CO2 daily emission")
-        st.markdown("="*100)
+        st.markdown("---")
         
         if "rows" not in st.session_state:
             st.session_state.rows = 4
