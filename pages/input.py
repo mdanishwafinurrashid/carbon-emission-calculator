@@ -5,8 +5,8 @@ with st.container():
     
     def show():
         
-        st.title("🌍 Carbon Footprint Calculator")
-        st.caption("Calculate your CO2 daily")
+        st.title("EcoStep 🍂")
+        st.caption("Calculate your CO2 daily emission")
         st.markdown("="*100)
         
         if "rows" not in st.session_state:
@@ -62,7 +62,7 @@ with st.container():
                     if st.session_state.rows > 4:
                         st.session_state.rows -= 1
         
-        if st.button("                  Calculate                   "):
+        if st.button("Calculate"):
 
                 st.session_state.activities = activities_data
                 st.session_state.page = "output"
