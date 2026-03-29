@@ -1,9 +1,7 @@
 import streamlit as st
 
-from logic.emission_calculator import calculate_total_emission
-from logic.emission_calculator import category_breakdown
-from logic.emission_calculator import severity_level
-from logic.emission_calculator import get_suggestions
+from logic.emission_calculator import (calculate_total_emission, category_breakdown, severity_level,get_suggestions)
+
 
 
 def show():
