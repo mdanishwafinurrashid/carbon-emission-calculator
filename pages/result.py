@@ -40,8 +40,6 @@ def show():
     
     st.markdown("---")
 
-        
-    
     col1, col2, col3 = st.columns(3)
     
     with col1 :
@@ -75,11 +73,7 @@ def show():
 
         st.write(f"🌳 {round(trees)} tress needed")
         st.write(f"💰 RM {round(cost, 2)} carbon offset")
-        
-    
-
-
-        
+             
     with col3 :
         # Bar Chart to show which activity produced CO2 the most
         st.subheader("Breakdown")
