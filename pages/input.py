@@ -26,20 +26,10 @@ with st.container():
                     key=f"activity_{i}"
                 )
 
-            unit = Activities[activity]["Unit"]
 
-        #For the unit value buttons row
             with col2:
-
-                if unit == "distance":
                     value = st.number_input(
-                        "Distance (km)",
-                        min_value=0.0,
-                        key=f"value_{i}"
-                    )
-                else:
-                    value = st.number_input(
-                        "Duration (hours)",
+                        "Distance (km)/ Duration (hour)",
                         min_value=0.0,
                         key=f"value_{i}"
                     )
