@@ -5,7 +5,7 @@ with st.container():
     
     def show():
         
-        st.title("EcoStep 🍂")
+        st.title("EcoStep Mulhim 🍂")
         st.caption("Calculate your CO2 daily emission")
         st.markdown("---")
         
